@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/NormanGyllenhaal/canal-client.svg?branch=master)](https://travis-ci.org/NormanGyllenhaal/canal-client)
-## 易用的canal 客户端 easy canal client
-
 ### 介绍
 canal 是阿里巴巴mysql数据库binlog的增量订阅&消费组件  
 使用该客户端前请先了解canal,https://github.com/alibaba/canal  
@@ -16,24 +13,7 @@ java8+
 * 同步异步处理支持
 * spring boot 开箱即用
 
-### 如何使用
-spring boot 方式 
-maven 依赖
-```xml
-  <dependency>
-      <groupId>top.javatool</groupId>
-      <artifactId>canal-spring-boot-starter</artifactId>
-      <version>1.2.6-RELEASE</version>
-  </dependency>
-```
-java 方式
-```xml
- <dependency>
-       <groupId>top.javatool</groupId>
-       <artifactId>canal-client</artifactId>
-       <version>1.2.6-RELEASE</version>
- </dependency>
-```
+
 配置说明
 
 |属性|描述|默认值|
@@ -123,4 +103,4 @@ public class DefaultEntryHandler implements EntryHandler<Map<String, String>> {
 CanalModel canal = CanalContext.getModel();
 ```
 具体使用可以查询项目demo 示例  
-https://github.com/NormanGyllenhaal/canal-client/tree/master/canal-example
+
