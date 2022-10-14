@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.haoyu.common.canal.client.spring.boot.autoconfigure.ZookeeperClientAutoConfiguration,\
+com.haoyu.common.canal.client.spring.boot.autoconfigure.SimpleClientAutoConfiguration,\
+com.haoyu.common.canal.client.spring.boot.autoconfigure.KafkaClientAutoConfiguration,\
+com.haoyu.common.canal.client.spring.boot.autoconfigure.ClusterClientAutoConfiguration
